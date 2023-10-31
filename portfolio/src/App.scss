@@ -1,24 +1,15 @@
 @font-face {
-    font-family: 'GmarketSansMedium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  * {
-    font-family: 'GmarketSansMedium';
-  }
-
-body{
-    background-color: #EAEAEA;
-    .face{
-        width: 500px;
-    }
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-// .pofol-div{
-//     position: relative;
-//     >img{
-//         position: absolute;
-//         top: 20%
-//     }
-// }
+
+* {
+  font-family: 'GmarketSansMedium';
+}
+
+body {
+  background-color: #EAEAEA;
+}
+

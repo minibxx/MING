@@ -1,0 +1,42 @@
+.pofols{
+    display: flex;
+}
+a {width: 200px; margin: 20px;}
+a:link { color: red; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: rgb(170, 30, 91); text-decoration: none;}
+
+.pofol-div {
+    margin: 0 auto;
+    width: 600px;
+    position: relative;
+    position: fixed;
+    bottom: -1%; left: 50%;
+    transform: translatex(-50%);
+    .pofol-title {
+        font-size: 8rem;
+        font-weight: 900;
+        transform: rotateZ(-5deg);
+        z-index: -1;
+        position: absolute;
+        top: 55%;
+        left: 0;
+        color: rgb(170, 30, 91);
+    }
+    .pofol-title2 {
+        font-size: 10rem;
+        font-weight: 900;
+        transform: rotateZ(-5deg);
+        z-index: -1;
+        position: absolute;
+        top: 55%;
+        left: 0;
+        color: rgb(35, 65, 120);
+    }
+    
+    .pofol-face {
+        // width: 100%;
+        margin: 0 auto;
+        margin-left: 20px;
+    }
+  }

@@ -1,12 +1,19 @@
 import React from 'react'
-import * as TRHEE from 'three'
-// import {GLTFLoader} from 'GLTFLoader'
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls } from '@react-three/drei';
+
 
 function Skills() {
-  // const scene = new THREE.Scene();
   return (
     <>
-    <canvas id="canvas">gd</canvas>
+      <Canvas id='canvas' height="500">
+          <OrbitControls autoRotate={true}/>
+          <mesh>
+            <ambientLight intensity={2}/>
+            <boxGeometry args={[1,1,1]}/>
+            <meshStandardMaterial attach="material" color={0xf08080}/>
+          </mesh>
+      </Canvas>
 
     </>
   )

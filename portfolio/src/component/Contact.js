@@ -53,7 +53,7 @@ function Contact() {
       </ul>
       
       <article className='projectdisplay_item_flex' 
-      onMouseOut={onMouseOutOnProject}
+      onMouseOut={onMouseOutOnProject }
       >
       {hoveredProject == 0 ? (
         <>

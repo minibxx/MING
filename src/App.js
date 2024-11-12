@@ -7,7 +7,8 @@ import Skills from './component/Skills'
 import Projects from './component/Front';
 import Works from './component/Works'
 import Contact from './component/Contact'
-import Ssock from './component/Ssock';
+import Ssock from './component/portfolio/Ssock';
+import './index.css'
 function App() {
   return (
     <BrowserRouter>

@@ -8,6 +8,7 @@ import Projects from './component/Front';
 import Works from './component/Works'
 import Contact from './component/Contact'
 import Ssock from './component/portfolio/Ssock';
+import Ddokddok from './component/portfolio/Ddokddok';
 import './index.css'
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact/>}></Route>
         </Routes>
         <Ssock/>
+        <Ddokddok/>
       </div>
     </BrowserRouter>
   );

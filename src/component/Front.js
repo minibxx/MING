@@ -5,7 +5,7 @@ import face2 from '../img/left-top.png'
 import face3 from '../img/left.png'
 import face4 from '../img/right.png'
 import face5 from '../img/top.png'
-import face6 from '../img/right2.png'
+import face6 from '../img/rightb.png'
 
 function Front() {
   const [hoveredProject, setHoveredProject] = useState(0);
@@ -40,9 +40,9 @@ function Front() {
     } else if (hoveredProject === 4) {
       return face5;
     } else if (hoveredProject === 5) {
-      return face6;
-    } else {
       return face4;
+    } else {
+      return face6;
     }
 
   }

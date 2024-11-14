@@ -19,7 +19,7 @@ const ContentBox = styled.div`
 	background-image: linear-gradient(#fff,#DBDEF5);
     margin-top: 30px;
 `;
-function Ddokddok() {
+function Floud() {
     return (
         <ContentBox>
             <div className='flex gap-[50px] py-[30px]'>
@@ -56,4 +56,4 @@ function Ddokddok() {
     )
 }
 
-export default Ddokddok
+export default Floud

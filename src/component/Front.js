@@ -72,7 +72,7 @@ function Front() {
     <>
       <div className='front row'>
         <div className='pofols'>
-          <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(1)} href='https://github.com/gardening-y/Helpkiosk'>
+          <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(1)} href=''>
             [SSOCK] <br /> 음성 인식을 이용한 <br />모바일 키오스크, 쏙
           </a>
           <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(2)} href=''>

@@ -10,6 +10,7 @@ import Contact from './component/Contact'
 import Ssock from './component/portfolio/Ssock';
 import Ddokddok from './component/portfolio/Ddokddok';
 import './index.css'
+import Floud from './component/portfolio/Floud';
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +25,7 @@ function App() {
         </Routes>
         <Ssock/>
         <Ddokddok/>
+        <Floud/>
       </div>
     </BrowserRouter>
   );

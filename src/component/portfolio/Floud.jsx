@@ -1,5 +1,6 @@
 import React from 'react'
 import ssock from '../../img/floud title.png'
+import floudB from '../../img/floudB.png'
 import github from '../../img/github.png'
 import styled from "styled-components";
 
@@ -49,12 +50,13 @@ function Floud() {
                     <div>매일 작성한 KPT 회고로 자신의 하루를 돌아보는 서비스, 플라우디입니다.</div>
 
                     <div className='mt-[15px]'>혼자 적으면서 동기부여가 안될 때, 공개된 플랫폼에 작성하기에는 부담이 될 때, </div>
-                    <div>회고 전용 플랫폼인 FlouD에서 회고를 적고 익명의 친구와 공유하며 </div>
-                    <div>건강한 자극을 주고 받을 수 있습니다.</div>
+                    <div>회고 전용 플랫폼인 FlouD에서 회고를 적고 익명의 친구와 공유하며 건강한 자극을 주고 받을 수 있습니다. </div>
+                    <div></div>
 
                     <div className='mb-[60px] mt-[15px]'>하루 10분 회고하며 매일 1% 성장하는 당신의 하루를 기록하세요. </div>
-                    <div className='w-[40px]'>
+                    <div className='w-[50px] flex gap-[10px]'>
                         <img src={github} />
+                    <img src={floudB} />
                     </div>
 
                 </div>
@@ -62,6 +64,7 @@ function Floud() {
                 <Img>
                     <img src={ssock} />
                 </Img>
+                
 
             </Flex>
             <div className='mx-[150px]'>- 상세 업무 -

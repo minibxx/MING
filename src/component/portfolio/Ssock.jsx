@@ -55,11 +55,11 @@ function Ssock() {
 			</div>
 			<Flex>
 				<div className='w-[55%]'>
-					<div className='text-[#EA4C4C] font-bold text-[25px] mb-[20px]'>[SSOCK] 디지털 격차 해소를 위한 음성인식 모바일 키오스크, 쏙</div>
+					<div className='text-[#EA4C4C] font-bold text-[25px] mb-[20px]'> [음성 인식 키오스크] 내 손 안에 쏙, SSOCK</div>
 					<div>인건비를 절감하고 사용자의 편의성을 증대시키기 위해 도입된 키오스크.</div>
 
 					<div>키오스크는 바쁜 소상공인과 사용이 미숙한 디지털 약자에게 불편한 점이 많아 개선이 시급합니다.</div>
-					<div className='mb-[10px]'>음성인식 기반으로 누구나 편리하게 주문하고 판매할 수 있는 서비스, SSOCK 은 어떠신가요?</div>
+					<div className='mb-[10px]'>SSOCK을 통해서는 누구나 편리하게 주문하고 판매할 수 있습니다.</div>
 					<div className='font-bold mt-[10px] mb-[3px]'>상세 업무</div>
 					<div>
 						바닐라 자바스크립트로 STT를 구현하여 음성으로 원하는 메뉴를 주문하고, 판매 목록에 없을 경우 '해당 메뉴는 판매하지 않습니다.' 라는 메시지를 구현해야 하는 상황이었습니다.

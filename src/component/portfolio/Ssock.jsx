@@ -1,5 +1,5 @@
 import React from 'react'
-import ssock from '../../img/ssock.png'
+import ssock from '../../img/sock.png'
 import styled from "styled-components";
 import ssockB from '../../img/ssockB.png'
 import github from '../../img/github.png'
@@ -12,8 +12,8 @@ const Flex = styled.div`
 `;
 
 const Img = styled.div`
-  width: 55%;
-  margin: 30px 0px;
+  width: 40%;
+  margin: 0px 0px;
 `;
 
 const ContentBox = styled.div`

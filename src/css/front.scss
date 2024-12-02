@@ -12,21 +12,18 @@
     margin: 0 auto;
     width: 600px;
     position: relative;
-    // position: fixed;
-    // bottom: -1%; left: 50%;
-    // transform: translatex(-50%);
     .pofol-title {
         width: 600px;
         font-size: 8rem;
         font-weight: 900;
-        // transform: rotateZ(-3deg);
-        z-index: -1;
-        position: absolute;
-        top: 55%;
+        position: fixed;
+        top: 50%;
         left: 50%;
-        transform: translatex(-50%) rotateZ(-3deg);
+        transform: translate(-50%, -50%) rotateZ(-3deg); 
         color: rgb(170, 30, 91);
+        z-index: -1;
     }
+    
     .pofol-title2 {
         width: 600px;
         font-size: 8rem;
@@ -36,6 +33,7 @@
         position: absolute;
         top: 57%;
         left: 50%;
+        transform: translate(-50%, -50%) rotateZ(-3deg); 
         transform: translatex(-50%) rotateZ(2deg);
         color: rgb(35, 65, 120);
     }

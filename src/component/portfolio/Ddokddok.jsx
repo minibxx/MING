@@ -17,7 +17,7 @@ const Img = styled.div`
 const ContentBox = styled.div`
 	border-radius: 20px;
 	box-shadow: 0 0 10px #D3D3D3;
-	padding: 50px 150px ;
+	padding: 50px 110px ;
 	background-image: linear-gradient(#fff,#DBDEF5);
     margin-top: 30px;
 
@@ -69,8 +69,8 @@ function Ddokddok() {
                         <div className='mb-[10px]'></div>
                         <div className='font-bold mt-[15px] mb-[5px]'>트러블 슈팅</div>
                         <div>Ⅰ. 미디어 파일 통신 (분석을 위해 mp3와 mp4 파일을 서버에 전송)</div>
-                        <div className='ml-[12px]'>→ 녹음, 녹화 파일을 Blob 객체로 나누어 chunk 배열에 저장한 후 이를 File 객체로 변환하여 서버에 전송이 가능하게 세팅</div>
-                        <div className='ml-[12px]'>→ 함수형 컴포넌트에서도 사용할 수 있게 구현해둔 훅을 이용해 formData 객체에 저장한 파일들을 추가하고 서버에 전송</div>
+                        <div className='ml-[12px]'>→ 녹음, 녹화 파일을 Blob 객체로 나누어 chunk 배열에 저장한 후 File 객체로 변환하여 서버에 전송하도록 세팅</div>
+                        <div className='ml-[12px]'>→ 함수형 컴포넌트에서 사용하도록 구현해둔 훅을 이용해 formData 객체에 저장한 파일을 추가하고 서버에 전송</div>
                         <div className='mt-[10px]'>Ⅱ. 시선, 음성 분석 결과 그래프 이미지 전달</div>
                         <div className='ml-[12px]'>→ 프로젝트 루트 디렉토리에 저장되는 URL을 전달 받아서 화면에 렌더링하는 방식으로 구현</div>
 

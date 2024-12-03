@@ -4,15 +4,15 @@ import yub2 from '../img/yubeen2.jpg'
 
 function AboutME() {
     return (
-        <div className='w-[80%] m-[auto]'>
-            <div className='flex justify-between'>
+        <div className='w-[80%] m-[auto] '>
+            <div className='flex justify-between mt-[50px]'>
                 <div className='w-[15%]'>
                     {/* <img src={yub2}/> */}
                     <img src={yub1} />
                 </div>
 
                 <ul className='w-[80%] flex flex-col gap-[3%]'>
-                    <div className='font-bold text-[20px] mb-[10px]'>안녕하세요. 경험하며 성장하는 프론트엔드 개발자, 민유빈입니다.</div>
+                    <div className='font-bold text-[20px] mb-[10px] '>안녕하세요. 경험하며 성장하는 프론트엔드 개발자, 민유빈입니다.</div>
                     <li>저는 덕성여자대학교에서 IT미디어공학을 전공하며 <span className='bg-[#FFF8D9]'>웹 개발 및 UX 디자인</span>에 대한 깊은 흥미를 가지고 있습니다.</li>
                         <li>동아리에서 참여한 다양한 프로젝트에서 기획 및 디자인 파트로 활동하며, 사용자 중심의 디자인을 구현하고 웹 개발에
                         접목시키는 역할을 수행하였습니다. <br/>이를 통해 사용자 경험을 최적화하고 서비스의 성능을 향상시키는 디자인에
@@ -46,12 +46,12 @@ function AboutME() {
                     
                     <ul>
                         <li><span className='mr-[15px]'>22.03~24.07</span>더블유쇼핑 정보방송 알짜배기 여행백서 촬영 보조 인턴</li>
-                        <li><span className='mr-[15px]'>23.10~24.07</span>해커톤 연합동아리 구름톤 UNIV 1/2기 프론트엔드 수료</li>
+                        <li><span className='mr-[15px]'>23.10~24.07</span>해커톤 연합동아리 구름톤 UNIV 1/2기 프론트엔드 트랙 수료</li>
                         <li><span className='mr-[15px]'>23.05~23.11</span>프로젝트 기반 프론트엔드(React,Vue) 웹&앱 SW 개발자 양성과정 11기 수료</li>
-                        <li><span className='mr-[15px]'>23.02~24.02</span>IT 연합동아리 멋쟁이사자처럼 11기 프론트엔드 운영진</li>
+                        <li><span className='mr-[15px]'>23.02~24.02</span>IT연합동아리 멋쟁이사자처럼 11기 프론트엔드 트랙 수료</li>
                         {/* <li><span className='mr-[15px]'>23.10~24.07</span>덕성여자대학교 덕성해커톤 1회 주관 및 진행</li> */}
                         <li><span className='mr-[15px]'>22.03~23.02</span>덕성여자대학교 커리어서포터즈 19/20기 디자인팀</li>
-                        <li><span className='mr-[15px]'>22.03~23.02</span>IT 연합동아리 멋쟁이사자처럼 10기 기획/디자인</li>
+                        <li><span className='mr-[15px]'>22.03~23.02</span>IT연합동아리 멋쟁이사자처럼 10기 기획/디자인 트랙 수료</li>
                         <li><span className='mr-[15px]'>21.06~23.02</span>덕성여자대학교 IT미디어공학전공 제 17/18대 학생회장</li>
                         <li><span className='mr-[15px]'>20.03~20.11</span>덕성여자대학교 과학기술대학 단과대 학생회 자명</li>
                     </ul>

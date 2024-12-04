@@ -42,18 +42,17 @@ function AboutME() {
 
                 
                 <div>
-                    <div className='font-bold text-[20px] mb-[10px] border-b-[2px] pb-[5px]'>🔎 활동</div>
+                    <div className='font-bold text-[20px] mb-[10px] border-b-[2px] pb-[5px]'>🔗 활동</div>
                     
                     <ul>
-                        <li><span className='mr-[15px]'>22.03~24.07</span>더블유쇼핑 정보방송 알짜배기 여행백서 촬영 보조 인턴</li>
-                        <li><span className='mr-[15px]'>23.10~24.07</span>해커톤 연합동아리 구름톤 UNIV 1/2기 프론트엔드 트랙 수료</li>
-                        <li><span className='mr-[15px]'>23.05~23.11</span>프로젝트 기반 프론트엔드(React,Vue) 웹&앱 SW 개발자 양성과정 11기 수료</li>
-                        <li><span className='mr-[15px]'>23.02~24.02</span>IT연합동아리 멋쟁이사자처럼 11기 프론트엔드 트랙 수료</li>
-                        {/* <li><span className='mr-[15px]'>23.10~24.07</span>덕성여자대학교 덕성해커톤 1회 주관 및 진행</li> */}
-                        <li><span className='mr-[15px]'>22.03~23.02</span>덕성여자대학교 커리어서포터즈 19/20기 디자인팀</li>
-                        <li><span className='mr-[15px]'>22.03~23.02</span>IT연합동아리 멋쟁이사자처럼 10기 기획/디자인 트랙 수료</li>
-                        <li><span className='mr-[15px]'>21.06~23.02</span>덕성여자대학교 IT미디어공학전공 제 17/18대 학생회장</li>
-                        <li><span className='mr-[15px]'>20.03~20.11</span>덕성여자대학교 과학기술대학 단과대 학생회 자명</li>
+                        <li className='flex'><div className='mr-[15px] w-[95px]'>22.03~24.07</div><div>더블유쇼핑 정보방송 알짜배기 여행백서 촬영 보조 인턴</div></li>
+                        <li className='flex'><div className='mr-[15px] w-[95px]'>23.10~24.07</div><div>해커톤 연합동아리 구름톤 UNIV 1/2기 프론트엔드 트랙 수료</div></li>
+                        <li className='flex'><div className='mr-[15px] w-[95px]'>23.05~23.11</div><div>프로젝트 기반 프론트엔드(React,Vue) 웹&앱 SW 개발자 양성과정 11기 수료</div></li>
+                        <li className='flex'><div className='mr-[15px] w-[95px]'>23.02~24.02</div><div>IT연합동아리 멋쟁이사자처럼 11기 프론트엔드 트랙 수료</div></li>
+                        <li className='flex'><div className='mr-[15px] w-[95px]'>22.03~23.02</div><div>덕성여자대학교 커리어서포터즈 19/20기 디자인팀</div></li>
+                        <li className='flex'><div className='mr-[15px] w-[95px]'>22.03~23.02</div><div>IT연합동아리 멋쟁이사자처럼 10기 기획/디자인 트랙 수료</div></li>
+                        <li className='flex'><div className='mr-[15px] w-[95px]'>21.06~23.02</div><div>덕성여자대학교 IT미디어공학전공 제 17/18대 학생회장</div></li>
+                        <li className='flex'><div className='mr-[15px] w-[95px]'>20.03~20.11</div><div>덕성여자대학교 과학기술대학 단과대 학생회 자명</div></li>
                     </ul>
                 </div>
             </div>

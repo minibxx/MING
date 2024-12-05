@@ -20,8 +20,9 @@ function AboutME() {
                     <li>프론트엔드 양성과정을 수강하며 React, Html/Css, JavaScript, Next 등을 학습하고 한 경험이 있습니다. <br/>저는 사용자와
                         <span className='font-semibold'> 인터랙션</span>이 가능하면서도 경쟁력 있는 기능을 가지고 있으며, 동시에 <span className='font-semibold'> 시각적으로 매력적인</span> 웹 서비스 개발을 희망합니다.</li>
                     <li>제가 가진 여러 경험과 능력을 더해 의미있는 프로젝트를 진행하며 함께 성장할 수 있으면 좋겠습니다. 감사합니다 (｡•̀ᴗ-)</li>
+                    <div className='mt-[10px]'> ✉️ alsdbqls10@duksung.ac.kr  <span className='ml-[10px]'>📱+82 10-9473-5716   </span></div>
+                   
                 </ul>
-               
             </div>
             <div className='flex justify-between mt-[30px]'>
             <div>
@@ -38,6 +39,7 @@ function AboutME() {
                         <li><span className='mr-[15px]'>2019. 07</span>사진기능사</li>
                         <li><span className='mr-[15px]'>2018. 05</span>GTQ 그래픽기술자격 1급</li>
                     </ul>
+                    
                 </div>
 
                 
@@ -54,6 +56,7 @@ function AboutME() {
                         <li className='flex'><div className='mr-[15px] w-[95px]'>21.06~23.02</div><div>덕성여자대학교 IT미디어공학전공 제 17/18대 학생회장</div></li>
                         <li className='flex'><div className='mr-[15px] w-[95px]'>20.03~20.11</div><div>덕성여자대학교 과학기술대학 단과대 학생회 자명</div></li>
                     </ul>
+                    
                 </div>
             </div>
         </div>

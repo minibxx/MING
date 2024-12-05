@@ -16,7 +16,7 @@ const Img = styled.div`
 const ContentBox = styled.div`
 	border-radius: 20px;
 	box-shadow: 0 0 10px #D3D3D3;
-	padding: 50px 110px;
+	padding: 70px 110px;
 	background-image: linear-gradient(#fff,#E1EDFf);
     margin-top: 30px;
 `;

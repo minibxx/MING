@@ -20,6 +20,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) rotateZ(-3deg); 
+        text-align: center; /* 텍스트 중앙 정렬 */
         color: rgb(170, 30, 91);
         z-index: -1;
     }
@@ -28,13 +29,13 @@
         width: 600px;
         font-size: 8rem;
         font-weight: 900;
-        // transform: rotateZ(3deg);
         z-index: -1;
         position: absolute;
         top: 57%;
         left: 50%;
         transform: translate(-50%, -50%) rotateZ(-3deg); 
-        transform: translatex(-50%) rotateZ(2deg);
+        transform: translatex(-50%) rotateZ(2deg); 
+        text-align: center; /* 텍스트 중앙 정렬 */
         color: rgb(35, 65, 120);
     }
     

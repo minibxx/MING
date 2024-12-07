@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../css/front.scss';
-import face1 from '../img/fm_ts2.png'
+import face1 from '../img/left2.png'
 import face2 from '../img/left-top.png'
 import face3 from '../img/left.png'
 import face4 from '../img/right.png'
@@ -16,7 +16,7 @@ function Front() {
 
   const renderPofolTitle = () => {
     if (hoveredProject === 1) {
-      return 'DDokDDok';
+      return 'ddokddok';
     } else if (hoveredProject === 2) {
       return 'FlouD';
     } else if (hoveredProject === 3) {
@@ -32,9 +32,9 @@ function Front() {
   }
   const renderPofolFace = () => {
     if (hoveredProject === 1) {
-      return face1;
-    } else if (hoveredProject === 2) {
       return face2;
+    } else if (hoveredProject === 2) {
+      return face1;
     } else if (hoveredProject === 3) {
       return face3;
     } else if (hoveredProject === 4) {
@@ -85,7 +85,7 @@ function Front() {
         </div>
         <div className='pofol-div'>
           <b className={renderPofolStyle()}>{renderPofolTitle()}</b>
-          <img className='renderPofolStyle' src={renderPofolFace()} />
+          <img className='renderPofolStyle ml-[50px]' src={renderPofolFace()} />
         </div>
         <div className='pofols right'>
 

@@ -11,7 +11,6 @@ import Ssock from './component/portfolio/Ssock';
 import Ddokddok from './component/portfolio/Ddokddok';
 import './index.css'
 import Floud from './component/portfolio/Floud';
-import Modal from './component/Modal';
 function App() {
   return (
     <BrowserRouter>
@@ -24,7 +23,6 @@ function App() {
           <Route path="/work" element={<Works/>}></Route>
           <Route path="/contact" element={<Contact/>}></Route>
         </Routes>
-        <Modal/>
         <Ssock/>
         <Ddokddok/>
         <Floud/>

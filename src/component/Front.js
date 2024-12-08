@@ -6,6 +6,14 @@ import face3 from '../img/left.png'
 import face4 from '../img/right.png'
 import face5 from '../img/top.png'
 import face6 from '../img/rightb.png'
+import p1 from '../img/p1.png'
+import p2 from '../img/p2.png'
+import p3 from '../img/p3.png'
+import p4 from '../img/p4.png'
+import p5 from '../img/p5.png'
+import p6 from '../img/p6.png'
+
+
 
 function Front() {
   const [hoveredProject, setHoveredProject] = useState(0);
@@ -16,17 +24,17 @@ function Front() {
 
   const renderPofolTitle = () => {
     if (hoveredProject === 1) {
-      return 'ddokddok';
+      return p1;
     } else if (hoveredProject === 2) {
-      return 'FlouD';
+      return p2;
     } else if (hoveredProject === 3) {
-      return 'SSock';
+      return p3;
     } else if (hoveredProject === 4) {
-      return ' Wealth';
+      return p4;
     } else if (hoveredProject === 5) {
-      return ' SlowL';
+      return p5;
     } else {
-      return '별별연인';
+      return p6;
     }
 
   }
@@ -84,8 +92,9 @@ function Front() {
           </a>
         </div>
         <div className='pofol-div'>
-          <b className={renderPofolStyle()}>{renderPofolTitle()}</b>
-          <img className='renderPofolStyle ml-[50px]' src={renderPofolFace()} />
+          {/* <b className={renderPofolStyle()}>{renderPofolTitle()}</b> */}
+          <img className='pofol-title' src={renderPofolTitle()} />
+          <img className='renderPofolStyle ml-[50px] ' src={renderPofolFace()} />
         </div>
         <div className='pofols right'>
 

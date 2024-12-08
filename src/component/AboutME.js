@@ -8,7 +8,7 @@ import been from '../img/13.png'
 function AboutME() {
     return (
         <>
-            <div className='w-[70%] flex mx-[auto] my-[70px]'>
+            <div className='w-[80%] flex mx-[auto] my-[70px]'>
                 <div className='movingTextUp'><img src={min} /></div>
                 <div className='movingTextDown'><img src={yu} /></div>
                 <div className='movingTextUp'><img src={been} /></div>

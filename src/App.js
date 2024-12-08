@@ -7,10 +7,7 @@ import Skills from './component/Skills'
 import Projects from './component/Front';
 import Works from './component/Works'
 import Contact from './component/Contact'
-import Ssock from './component/portfolio/Ssock';
-import Ddokddok from './component/portfolio/Ddokddok';
 import './index.css'
-import Floud from './component/portfolio/Floud';
 function App() {
   return (
     <BrowserRouter>
@@ -23,9 +20,7 @@ function App() {
           <Route path="/work" element={<Works/>}></Route>
           <Route path="/contact" element={<Contact/>}></Route>
         </Routes>
-        <Ssock/>
-        <Ddokddok/>
-        <Floud/>
+  
       </div>
     </BrowserRouter>
   );

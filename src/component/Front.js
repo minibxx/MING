@@ -12,7 +12,9 @@ import p3 from '../img/p3.png'
 import p4 from '../img/p4.png'
 import p5 from '../img/p5.png'
 import p6 from '../img/p6.png'
-
+import Ssock from './portfolio/Ssock'
+import Ddokddok from './portfolio/Ddokddok';
+import Floud from './portfolio/Floud';
 
 
 function Front() {
@@ -62,6 +64,23 @@ function Front() {
       return 'pofol-title2';
     } else if (hoveredProject === 3) {
       return 'pofol-title';
+    } else if (hoveredProject === 4) {
+      return 'pofol-title2';
+    } else if (hoveredProject === 5) {
+      return 'pofol-title';
+    } else {
+      return 'pofol-title2';
+    }
+
+  }
+
+  const renderPofolCard = () => {
+    if (hoveredProject === 1) {
+      return <Ddokddok/>;
+    } else if (hoveredProject === 2) {
+      return <Ssock/>;
+    } else if (hoveredProject === 3) {
+      return <Floud/>;
     } else if (hoveredProject === 4) {
       return 'pofol-title2';
     } else if (hoveredProject === 5) {

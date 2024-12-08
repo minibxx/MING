@@ -9,9 +9,9 @@ function AboutME() {
     return (
         <>
             <div className='w-[70%] flex mx-[auto] my-[70px]'>
-                <div><img src={min} /></div>
-                <div><img src={yu} /></div>
-                <div><img src={been} /></div>
+                <div className='movingTextUp'><img src={min} /></div>
+                <div className='movingTextDown'><img src={yu} /></div>
+                <div className='movingTextUp'><img src={been} /></div>
             </div>
 
             <div className='w-[80%] m-[auto] '>

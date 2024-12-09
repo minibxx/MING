@@ -8,16 +8,16 @@ function AboutMeList() {
     <>
       <div className='flex justify-between'>
         <div className='bg-[#D8DAF1]'>
-          <div className='w-[50%] m-[auto]'> <img src={c2} /></div>
+          <div className='w-[50%] m-[auto] mt-[20px]'> <img src={c2} /></div>
           <div className='font-bold text-[20px] mb-[10px] m-[auto]'>Profile</div>
         </div>
         <div className='bg-[#ECDEEE]'>
-          <div className='w-[50%] m-[auto]'> <img src={c1} /></div>
+          <div className='w-[50%] m-[auto] mt-[20px]'> <img src={c1} /></div>
           <div className='font-bold text-[20px] mb-[10px] m-[auto]'>Activities</div>
         </div>
 
         <div className='bg-[#C6CBE0]'>
-          <div className='w-[50%] m-[auto]'> <img src={c3} /></div>
+          <div className='w-[50%] m-[auto] mt-[20px]'> <img src={c3} /></div>
           <div className='font-bold text-[20px] mb-[10px] m-[auto]'>Skills</div>
         </div>
       </div>

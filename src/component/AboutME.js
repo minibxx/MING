@@ -17,7 +17,7 @@ function AboutME() {
                 <div className='movingTextUp'><img src={been} /></div>
             </div>
 
-            <div className='w-[80%] m-[auto] h-[350px] '>
+            <div className='h-[350px] ml-[17%]'>
                 <div className='flex justify-between mt-[50px] m-[auto]'>
                     <div className='w-[15%] '>
                         {/* <img src={yub2}/> */}
@@ -25,7 +25,7 @@ function AboutME() {
                     </div>
                     <ul className='w-[80%] flex flex-col gap-[3%]'>
                         <div className='font-bold text-[30px] mb-[10px] '>안녕하세요. 경험하며 성장하는 프론트엔드 개발자, 민유빈입니다.</div>
-                        <li>저는 덕성여자대학교에서 IT미디어공학을 전공하며 <span className='bg-[#FFF8D9]'>웹 개발 및 UX 디자인</span>에 대한 깊은 흥미를 가지고 있습니다.</li>
+                        <li>저는 덕성여자대학교에서 IT미디어공학을 전공하며 <span className='bg-[#FFF8D9]'>웹 개발 및 UX 디자인</span>에 대한 깊은 흥미를 갖게 되었습니다.</li>
                         <li>동아리에서 참여한 다양한 프로젝트에서 기획 및 디자인 파트로 활동하며, 사용자 중심의 디자인을 구현하고 웹 개발에
                             접목시키는 역할을 수행하였습니다. <br />이를 통해 사용자 경험을 최적화하고 서비스의 성능을 향상시키는 디자인에
                             대해 배우고 생각해볼 수 있었습니다.</li>

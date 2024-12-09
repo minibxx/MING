@@ -78,9 +78,10 @@ function Front() {
     if (hoveredProject === 1) {
       return <Ddokddok/>;
     } else if (hoveredProject === 2) {
-      return <Ssock/>;
-    } else if (hoveredProject === 3) {
+      
       return <Floud/>;
+    } else if (hoveredProject === 3) {
+      return <Ssock/>;
     } else if (hoveredProject === 4) {
       return 'pofol-title2';
     } else if (hoveredProject === 5) {
@@ -96,39 +97,40 @@ function Front() {
   }, [hoveredProject])
 
   return (
-    <>
+    <div className='w-[80%] m-[auto]'>
       <div className='front row'>
         <div className='pofols'>
           <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(1)} href=''>
-            [DDokDDok] <br /> 똑부러지는 취업, <br/>똑바른 자세부터! 똑똑
+            <span className='font-black text-[30px]'> Ddokddok</span><br /> 똑부러지는 취업, <br/>똑바른 자세부터! 똑똑
           </a>
           <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(2)} href=''>
-          [FlouD] <br />하루 10분 회고하며 <br />매일 1% 성장하다
+          <span className='font-black text-[30px]'> FlouD</span> <br />하루 10분 회고하며 <br />매일 1% 성장하다
             
           </a>
           <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(3)} href=''>
-         [SSOCK] <br />음성인식 모바일 키오스크 <br />내 폰 안에, 쏙!
+          <span className='font-black text-[30px]'> SSock</span> <br />음성인식 모바일 키오스크 <br />내 폰 안에, 쏙!
           </a>
         </div>
         <div className='pofol-div'>
           {/* <b className={renderPofolStyle()}>{renderPofolTitle()}</b> */}
           <img className='pofol-title' src={renderPofolTitle()} />
-          <img className='renderPofolStyle ml-[50px] ' src={renderPofolFace()} />
+          <img className='renderPofolStyle ml-[50px] mt-[70px] ' src={renderPofolFace()} />
         </div>
         <div className='pofols right'>
 
           <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(4)} href=''>
-          [Wealth] <br />여성에 의한, 여성을 위한 <br />인공지능 기반 <br />헬스 보조 서비스
+          <span className='font-black text-[30px]'> Wealth</span> <br />여성에 의한, 여성을 위한 <br />인공지능 기반 <br />헬스 보조 서비스
           </a>
           <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(5)} href=''>
-          [SlowL] <br />경계성 지능 장애인을 위한 <br /> 느린 교육 플랫폼, 슬로울
+          <span className='font-black text-[30px]'> SlowL</span> <br />경계성 지능 장애인을 위한 <br /> 느린 교육 플랫폼, 슬로울
           </a>
           <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(6)} href=''>
-          [별별연인] <br />사주 기반 <br /> 연인 매칭 서비스
+          <span className='font-black text-[30px]'> 별별연인</span> <br />사주 기반 <br /> 연인 매칭 서비스
           </a>
         </div>
       </div>
-    </>
+      <div>{renderPofolCard()}</div>
+    </div>
   )
 }
 

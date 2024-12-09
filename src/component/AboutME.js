@@ -5,10 +5,13 @@ import min from '../img/11.png'
 import yu from '../img/12.png'
 import been from '../img/13.png'
 
+import AboutMeList from './portfolio/AboutMeList'
+
+
 function AboutME() {
     return (
         <>
-            <div className='w-[80%] flex mx-[auto] my-[70px]'>
+            <div className='w-[100%] flex mx-[auto] my-[70px]'>
                 <div className='movingTextUp'><img src={min} /></div>
                 <div className='movingTextDown'><img src={yu} /></div>
                 <div className='movingTextUp'><img src={been} /></div>
@@ -27,13 +30,14 @@ function AboutME() {
                         <li>동아리에서 참여한 다양한 프로젝트에서 기획 및 디자인 파트로 활동하며, 사용자 중심의 디자인을 구현하고 웹 개발에
                             접목시키는 역할을 수행하였습니다. <br />이를 통해 사용자 경험을 최적화하고 서비스의 성능을 향상시키는 디자인에
                             대해 배우고 생각해볼 수 있었습니다.</li>
-                        <li>프론트엔드 양성과정을 수강하며 React, Html/Css, JavaScript, Next 등을 학습하고 한 경험이 있습니다. <br />저는 사용자와
+                        <li>프론트엔드 양성과정을 수강하며 React, Html/Css, JavaScript, Next 등을 학습하고 사용한 경험이 있습니다. <br />저는 사용자와
                             <span className='font-semibold'> 인터랙션</span>이 가능하면서도 경쟁력 있는 기능을 가지고 있으며, 동시에 <span className='font-semibold'> 시각적으로 매력적인</span> 웹 서비스 개발을 희망합니다.</li>
                         <li>제가 가진 여러 경험과 능력을 더해 의미있는 프로젝트를 진행하며 함께 성장할 수 있으면 좋겠습니다. 감사합니다 (｡•̀ᴗ-)</li>
                         <div className='mt-[10px]'> ✉️ alsdbqls10@duksung.ac.kr  <span className='ml-[10px]'>📱+82 10-9473-5716   </span></div>
 
                     </ul>
                 </div>
+
                 <div className='flex justify-between mt-[70px]'>
                     <div>
                         <div className='font-bold text-[20px] mb-[10px] border-b-[2px] pb-[5px]'>🔎 Profile</div>
@@ -108,6 +112,7 @@ function AboutME() {
                     </div>
                 </div>
             </div>
+            <AboutMeList />
         </>
     )
 }

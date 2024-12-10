@@ -10,7 +10,7 @@ function AboutMeText() {
                 <div>
 
                     <div className='flex flex-start'>
-                        <ul className='w-[45%]'>
+                        <ul className='w-[40%]'>
                             <div className='font-bold mt-[15px]'>학력</div>
                             <li><span className='mr-[13px]'>2024. 08</span>덕성여자대학교 IT미디어공학전공 졸업 (4.03 / 4.5)</li>
                             <ul>

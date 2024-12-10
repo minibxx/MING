@@ -45,7 +45,9 @@ function AboutME() {
             {/* <div className='w-[80%] m-[auto]'> */}
             {/* <AboutMeList /> */}
             {/* </div> */}
-            <div className='w-[80%] m-[auto] font-bold text-[90px] mb-[10px] m-[auto] mb-[20px] h-[120px] items-center text-[gray]'>PROJECTS</div>
+            <div className='w-[80%] m-[auto] font-bold text-[90px] mb-[10px] m-[auto] mb-[20px] h-[120px] items-center text-[gray]'>
+                PROJECTS<span className='text-[15px] text-[black] ml-[30px]'>아래 프로젝트 위에 마우스를 올려보세요</span>
+            </div>
             <Front/>
         </>
     )

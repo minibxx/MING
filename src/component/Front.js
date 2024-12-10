@@ -15,6 +15,7 @@ import p6 from '../img/p6.png'
 import Ssock from './portfolio/Ssock'
 import Ddokddok from './portfolio/Ddokddok';
 import Floud from './portfolio/Floud';
+import Plan from './portfolio/Plan';
 
 
 function Front() {
@@ -82,7 +83,7 @@ function Front() {
     } else if (hoveredProject === 3) {
       return <Ssock/>;
     } else if (hoveredProject === 4) {
-      return 'pofol-title2';
+      return <Plan/>;
     } else if (hoveredProject === 5) {
       return 'pofol-title';
     } else {

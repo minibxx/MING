@@ -1,19 +1,15 @@
 import React from 'react'
-import c1 from '../../img/c1.png'
-import c2 from '../../img/c2.png'
-import c3 from '../../img/c3.png'
-import '../../css/about.scss'
 
-function AboutMeList() {
+function AboutListW() {
   return (
     <>
-      <div className='flex justify-between my-[50px]'>
-        <div className='bg-[#D8DAF1] pl-[40px] relative w-[33vw] py-[50px]'>
+      <div className='w-[80%] m-[auto] flex justify-between my-[50px]'>
+        <div className='relative w-[28vw] py-[50px]'>
           {/* <div className='w-[150px] m-[auto] mt-[50px] absolute top-[15%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]'> <img src={c2} /></div> */}
-          <div className='font-bold text-[90px] mb-[10px] m-[auto] text-center mt-[10px] mb-[20px] h-[120px] items-center text-[gray]'>PROFILE</div>
+          <div className='font-bold text-[90px] mb-[10px] m-[auto] mt-[10px] mb-[20px] h-[120px] items-center text-[gray]'>PROFILE</div>
           <ul>
             <div className='font-bold mt-[15px]'>학력</div>
-            <li><span className='mr-[15px]'>2024. 08</span>덕성여자대학교 IT미디어공학전공 졸업 (4.03 / 4.5)</li>
+            <li>덕성여자대학교 IT미디어공학전공 졸업 (4.03 / 4.5)</li>
           </ul>
           <ul>
             <div className='font-bold mt-[10px]'>수상</div>
@@ -30,9 +26,9 @@ function AboutMeList() {
           </ul>
         </div>
 
-          <div className='bg-[#ECDEEE] pl-[40px] relative w-[33vw] py-[50px]'>
+          <div className='pl-[40px] relative w-[38vw] py-[50px]'>
           {/* <div className='w-[150px] m-[auto] mt-[50px] absolute top-[15%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]'> <img src={c1} /></div> */}
-          <div className='font-bold text-[90px] mb-[10px] m-[auto] text-center mt-[10px] mb-[20px] h-[120px] items-center  text-[gray]'>ACTIVITIES</div>
+          <div className='font-bold text-[90px] mb-[10px] m-[auto] mt-[10px] mb-[20px] h-[120px] items-center  text-[gray]'></div>
           <ul className=''>
             <div className='font-bold mt-[15px]'>활동</div>
             <li className='flex'><div className='mr-[15px] w-[95px]'>22.03~24.07</div><div>더블유쇼핑 정보방송 알짜배기 여행백서 촬영 보조 인턴</div></li>
@@ -48,9 +44,9 @@ function AboutMeList() {
           </ul>
         </div>
 
-        <div className='bg-[#D8DAF1] pl-[40px] relative w-[33vw] py-[50px] '>
+        <div className=' pl-[40px] relative w-[33vw] py-[50px] '>
         {/* <div className='w-[150px] m-[auto] mt-[50px] absolute top-[15%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]'> <img src={c3} /></div> */}
-          <div className='font-bold text-[90px] mb-[10px] m-[auto] text-center mt-[10px] mb-[20px] h-[120px] items-center text-[gray]'>SKILLS</div>
+          <div className='font-bold text-[90px] mb-[10px] m-[auto] mt-[10px] mb-[20px] h-[120px] items-center text-[gray]'>SKILLS</div>
           <ul className=''>
             <div className='font-bold '>‣ Html / Css & Javascript</div>
             <ul></ul>
@@ -66,4 +62,4 @@ function AboutMeList() {
   )
 }
 
-export default AboutMeList
+export default AboutListW

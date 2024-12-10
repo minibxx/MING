@@ -78,7 +78,6 @@ function Front() {
     if (hoveredProject === 1) {
       return <Ddokddok/>;
     } else if (hoveredProject === 2) {
-      
       return <Floud/>;
     } else if (hoveredProject === 3) {
       return <Ssock/>;
@@ -113,8 +112,8 @@ function Front() {
         </div>
         <div className='pofol-div'>
           {/* <b className={renderPofolStyle()}>{renderPofolTitle()}</b> */}
-          <img className='pofol-title' src={renderPofolTitle()} />
-          <img className='renderPofolStyle ml-[50px] mt-[70px] ' src={renderPofolFace()} />
+          {/* <img className='pofol-title' src={renderPofolTitle()} /> */}
+          <img className='renderPofolStyle ml-[50px]' src={renderPofolFace()} />
         </div>
         <div className='pofols right'>
 

@@ -67,8 +67,8 @@ function Plan() {
                         <div className='mb-[10px]'></div>
                         <div className='font-bold mt-[15px] mb-[5px]'>트러블 슈팅</div>
                         <div>Ⅰ. AI 이미지 생성을 위한 채팅 페이지 구현</div>
-                        <div className='ml-[12px]'>→ 사용자가 새로 입력하거나 이전에 채팅한 데이터가 누적된 리스트를 관리하는 담당</div>
-                        <div className='ml-[12px]'>→ [...org]를 이용해 기존 배열을 수정하지 않고 추가로 배열(메시지)를 추가하는 방식으로 구현</div>
+                        {/* <div className='ml-[12px]'>→ 사용자가 새로 입력하거나 이전에 채팅한 데이터가 누적된 리스트를 관리하는 담당</div> */}
+                        <div className='ml-[12px]'>→ '...org'를 이용해 기존 배열을 수정하지 않고 추가로 배열(메시지)를 추가해 데이터를 누적하는 방식으로 구현</div>
                         <div className='ml-[12px]'>→ 'setTimeOut' 함수를 사용해 채팅이 보여지는 시간에 딜레이를 주어 자연스러운 채팅 효과 구현</div>
                         <div className='mt-[10px]'>Ⅱ. 달리를 사용해 생성한 추억 이미지를 프론트 화면에 전달</div>
                         <div className='ml-[12px]'>→ 프롬프트에 입력할 추억 키워드를 'userInput' 파라미터로 서버에 전달</div>

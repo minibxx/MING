@@ -28,6 +28,8 @@ function Skills() {
         <li>서버 사이드 렌더링(SSR)과 정적 사이트 생성(SSG)을 활용한 SEO 최적화 및 성능 향상</li>
         <li>동적 라우팅과 API Routes를 사용하여 서버리스 백엔드 구현</li>
         <li>React 컴포넌트 Prop 타입 지정을 통해 명확한 인터페이스 제공</li>
+        <div className='font-bold mt-[15px]'>‣ Three.js</div>
+        <li></li>
         <div className='font-bold mt-[15px]'>‣ ETC</div>
         <li className='mb-[50px]'>  Flutter / Vue / Photoshop / Illustrator / Blender / Maya / Github / Notion</li>
       </div>

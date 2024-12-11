@@ -18,9 +18,28 @@
     color: black;
     text-decoration: none;
 }
-
-.pofol:hover {
-    color: rgb(170, 30, 91);
+.pofol.font1:hover {
+    color: #1B2580;
+    text-decoration: none;
+}
+.pofol.font2:hover {
+    color: #EA4C4C;
+    text-decoration: none;
+}
+.pofol.font3:hover {
+    color: #AD6300;
+    text-decoration: none;
+}
+.pofol.font4:hover {
+    color: #0068FD;
+    text-decoration: none;
+}
+.pofol.font5:hover {
+    color: #3F8424;
+    text-decoration: none;
+}
+.pofol.font6:hover {
+    color: #F45852;
     text-decoration: none;
 }
 
@@ -31,9 +50,26 @@
     font-weight: 900;
     padding-bottom: 180px;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
+    color: black;
     transform: translate(-50%, -50%) rotateZ(-3deg);
-    // text-align: center; /* 텍스트 중앙 정렬 */
+    text-align: center;
+    /* 텍스트 중앙 정렬 */
+    z-index: -1;
+}
+
+.pofol-title2 {
+    width: 900px;
+    font-size: 200px;
+    font-weight: 900;
+    padding-bottom: 180px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%) rotateZ(3deg);
+    text-align: center;
+    /* 텍스트 중앙 정렬 */
     z-index: -1;
 }

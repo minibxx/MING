@@ -4,9 +4,9 @@ function AboutListW() {
   return (
     <>
       <div className='w-[80%] m-[auto] flex justify-between my-[50px]'>
-        <div className='relative w-[28vw] py-[50px]'>
+        <div className='relative w-[28vw] py-[30px]'>
           {/* <div className='w-[150px] m-[auto] mt-[50px] absolute top-[15%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]'> <img src={c2} /></div> */}
-          <div className='font-bold text-[90px] mb-[10px] m-[auto] mt-[10px] mb-[20px] h-[120px] items-center text-[gray]'>PROFILE</div>
+          <div className='font-bold text-[90px] mb-[10px] m-[auto] mb-[20px] h-[120px] items-center text-[gray]'>PROFILE</div>
           <ul>
             <div className='font-bold mt-[15px]'>학력</div>
             <li>덕성여자대학교 IT미디어공학전공 졸업 (4.03 / 4.5)</li>
@@ -40,20 +40,20 @@ function AboutListW() {
             <li className='flex'><div className='mr-[15px] w-[95px]'>23.10~24.07</div><div>해커톤 연합동아리 구름톤 UNIV 1/2기 프론트엔드 트랙 수료</div></li>
             <li className='flex'><div className='mr-[15px] w-[95px]'>23.05~23.11</div><div>프로젝트 기반 프론트엔드(React,Vue) <br />웹&앱 SW 개발자 양성과정 11기 수료</div></li>
             <li className='flex'><div className='mr-[15px] w-[95px]'>23.02~24.02</div><div>IT연합동아리 멋쟁이사자처럼 11기 프론트엔드 트랙 수료</div></li>
-            <li className='flex mb-[50px]'><div className='mr-[15px] w-[95px]'>22.03~23.02</div><div>IT연합동아리 멋쟁이사자처럼 10기 기획/디자인 트랙 수료</div></li>
+            <li className='flex '><div className='mr-[15px] w-[95px]'>22.03~23.02</div><div>IT연합동아리 멋쟁이사자처럼 10기 기획/디자인 트랙 수료</div></li>
           </ul>
         </div>
 
-        <div className=' pl-[40px] relative w-[33vw] py-[50px] '>
+        <div className=' pl-[40px] relative w-[33vw] py-[30px] '>
         {/* <div className='w-[150px] m-[auto] mt-[50px] absolute top-[15%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]'> <img src={c3} /></div> */}
-          <div className='font-bold text-[90px] mb-[10px] m-[auto] mt-[10px] mb-[20px] h-[120px] items-center text-[gray]'>SKILLS</div>
+          <div className='font-bold text-[90px] mb-[10px] m-[auto] mb-[20px] h-[120px] items-center text-[gray]'>SKILLS</div>
           <ul className=''>
             <div className='font-bold '>‣ Html / Css & Javascript</div>
             <ul></ul>
             <div className='font-bold mt-[15px]'>‣ React</div>
             <div className='font-bold mt-[15px]'>‣ Next & Typescript</div>
             <div className='font-bold mt-[15px]'>‣ ETC</div>
-            <li className='mb-[50px]'>  Flutter / Vue / Photoshop / Illustrator / Blender / Maya / Github / Notion</li>
+            <li className=''>  Flutter / Vue / Photoshop / Illustrator / Blender / Maya / Github / Notion</li>
           </ul>
 
         </div>

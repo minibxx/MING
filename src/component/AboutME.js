@@ -21,7 +21,7 @@ function AboutME() {
             </div>
 
             <div className='w-[65%] m-[auto] '>
-                <div className='flex justify-between mt-[50px] m-[auto]'>
+                <div className='flex justify-between mt-[90px] m-[auto]'>
                     <div className='w-[15%] '>
                         {/* <img src={yub2}/> */}
                         <img src={yub1} />
@@ -35,7 +35,11 @@ function AboutME() {
                         <li>프론트엔드 양성과정을 수강하며 React, Html/Css, JavaScript, Next 등을 학습하고 사용한 경험이 있습니다. <br />저는 사용자와
                             <span className='font-semibold'> 인터랙션</span>이 가능하면서도 경쟁력 있는 기능을 가지고 있으며, 동시에 <span className='font-semibold'> 시각적으로 매력적인</span> 웹 서비스 개발을 희망합니다.</li>
                         <li>제가 가진 여러 경험과 능력을 더해 의미있는 프로젝트를 진행하며 함께 성장할 수 있으면 좋겠습니다. 감사합니다 (｡•̀ᴗ-)</li>
-                        <div className='mt-[10px]'> ✉️ alsdbqls10@duksung.ac.kr  <span className='ml-[10px]'>📱+82 10-9473-5716   </span></div>
+                        <div className='mt-[10px]'> ✉️ alsdbqls10@duksung.ac.kr 
+                        <span className='ml-[20px]'>📱+82 10-9473-5716   </span> 
+                        <span className='ml-[20px]'>💻 Github | minibxx   </span>
+                        <span className='ml-[20px]'>   </span>
+                        </div>
                     </ul>
                 </div>
 
@@ -45,7 +49,7 @@ function AboutME() {
             {/* <div className='w-[80%] m-[auto]'> */}
             {/* <AboutMeList /> */}
             {/* </div> */}
-            <div className='w-[80%] m-[auto] font-bold text-[90px] mb-[10px] m-[auto] mb-[20px] h-[120px] items-center text-[gray]'>
+            <div className='w-[80%] m-[auto] font-bold text-[90px] mb-[10px] mb-[20px] h-[120px] items-center text-[gray]'>
                 PROJECTS<span className='text-[15px] text-[black] ml-[30px]'>아래 프로젝트 위에 마우스를 올려보세요</span>
             </div>
             <Front/>

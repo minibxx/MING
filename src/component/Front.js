@@ -16,6 +16,8 @@ import Ssock from './portfolio/Ssock'
 import Ddokddok from './portfolio/Ddokddok';
 import Floud from './portfolio/Floud';
 import Plan from './portfolio/Plan';
+import SlowL from './portfolio/SlowL';
+import Byeol from './portfolio/Byeol';
 
 
 function Front() {
@@ -26,18 +28,31 @@ function Front() {
   };
 
   const renderPofolTitle = () => {
+    // if (hoveredProject === 1) {
+    //   return p1;
+    // } else if (hoveredProject === 2) {
+    //   return p2;
+    // } else if (hoveredProject === 3) {
+    //   return p3;
+    // } else if (hoveredProject === 4) {
+    //   return p4;
+    // } else if (hoveredProject === 5) {
+    //   return p5;
+    // } else {
+    //   return p6;
+    // }
     if (hoveredProject === 1) {
-      return p1;
+      return '똑ㅤㅤ똑';
     } else if (hoveredProject === 2) {
-      return p2;
+      return 'FLOUD';
     } else if (hoveredProject === 3) {
-      return p3;
+      return '플랜데스';
     } else if (hoveredProject === 4) {
-      return p4;
+      return 'SSOCK';
     } else if (hoveredProject === 5) {
-      return p5;
+      return 'ㅤSLOWL';
     } else {
-      return p6;
+      return '별별연인';
     }
 
   }
@@ -79,15 +94,15 @@ function Front() {
     if (hoveredProject === 1) {
       return <Ddokddok/>;
     } else if (hoveredProject === 2) {
-      return <Floud/>;
-    } else if (hoveredProject === 3) {
       return <Ssock/>;
-    } else if (hoveredProject === 4) {
+    } else if (hoveredProject === 3) {
       return <Plan/>;
+    } else if (hoveredProject === 4) {
+      return <Floud/>;
     } else if (hoveredProject === 5) {
-      return 'pofol-title';
+      return <SlowL/>;
     } else {
-      return 'pofol-title2';
+      return <Byeol/>;
     }
 
   }
@@ -97,34 +112,36 @@ function Front() {
   }, [hoveredProject])
 
   return (
-    <div className='w-[80%] m-[auto]'>
+    <div className='w-[80%] m-[auto] relative'>
       <div className='front row'>
         <div className='pofols'>
-          <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(1)} href=''>
-            <span className='font-black text-[30px]'> Ddokddok</span><br /> 똑부러지는 취업, <br/>똑바른 자세부터! 똑똑
+          <a className='pofol font1' onMouseEnter={() => onMouseEnterOnProject(1)} href=''>
+            <span className='font-black text-[30px]'> DDokDDok</span><br /> 똑부러지는 취업, <br/>똑바른 자세부터! 똑똑
           </a>
-          <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(2)} href=''>
-          <span className='font-black text-[30px]'> FlouD</span> <br />하루 10분 회고하며 <br />매일 1% 성장하다
+          <a className='pofol font2' onMouseEnter={() => onMouseEnterOnProject(2)} href=''>
+          <span className='font-black text-[30px]'> SSock</span> <br />음성인식 모바일 키오스크 <br />내 폰 안에, 쏙!
+          
             
           </a>
-          <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(3)} href=''>
-          <span className='font-black text-[30px]'> SSock</span> <br />음성인식 모바일 키오스크 <br />내 폰 안에, 쏙!
+          <a className='pofol font3' onMouseEnter={() => onMouseEnterOnProject(3)} href=''>
+          <span className='font-black text-[30px]'> PlanDeath</span> <br/>당신이 내일 죽는다면? <br />죽음을 기획하라, 플랜데스
           </a>
         </div>
         <div className='pofol-div'>
-          {/* <b className={renderPofolStyle()}>{renderPofolTitle()}</b> */}
+          <b className={renderPofolStyle()}>{renderPofolTitle()}</b>
           {/* <img className='pofol-title' src={renderPofolTitle()} /> */}
           <img className='renderPofolStyle ml-[50px]' src={renderPofolFace()} />
         </div>
         <div className='pofols right'>
 
-          <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(4)} href=''>
-          <span className='font-black text-[30px]'> Wealth</span> <br />여성에 의한, 여성을 위한 <br />인공지능 기반 <br />헬스 보조 서비스
+          <a className='pofol font4' onMouseEnter={() => onMouseEnterOnProject(4)} href=''>
+          <span className='font-black text-[30px]'> FlouD</span> <br />하루 10분 회고하며 <br />매일 1% 성장하다
+         
           </a>
-          <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(5)} href=''>
+          <a className='pofol font5' onMouseEnter={() => onMouseEnterOnProject(5)} href=''>
           <span className='font-black text-[30px]'> SlowL</span> <br />경계성 지능 장애인을 위한 <br /> 느린 교육 플랫폼, 슬로울
           </a>
-          <a className='pofol' onMouseEnter={() => onMouseEnterOnProject(6)} href=''>
+          <a className='pofol font6' onMouseEnter={() => onMouseEnterOnProject(6)} href=''>
           <span className='font-black text-[30px]'> 별별연인</span> <br />사주 기반 <br /> 연인 매칭 서비스
           </a>
         </div>

@@ -1,5 +1,6 @@
+
 import React from 'react'
-import ssock from '../../img/plandeath3.png'
+import ssock from '../../img/Byeol.png'
 import styled from "styled-components";
 import ssockB from '../../img/bbogle_logo.png'
 import github from '../../img/github.png'
@@ -18,10 +19,10 @@ const ContentBox = styled.div`
 	border-radius: 20px;
 	box-shadow: 0 0 10px #D3D3D3;
 	padding: 30px 110px ;
-	background-image: linear-gradient(#FCF5ED, #fff);
+	background-image: linear-gradient(#FFF6E0, #fff);
     margin-bottom: 70px;
 `;
-function Plan() {
+function Byeol() {
     return (
         <>
             <ContentBox>
@@ -60,7 +61,7 @@ function Plan() {
                     </Img>
                     <div className='w-[55%]'>
 
-                        <div className='text-[#AD6300] font-bold text-[25px] mb-[20px]'>당신의 죽음을 기획하라, 플랜데스</div>
+                        <div className='text-[#F45852] font-bold text-[25px] mb-[20px]'>사주 기반 소개팅 매칭 서비스, 별별연인</div>
 
                         {/* <div>혼자 취업을 준비하는 취준생, 새로운 직종으로 이직을 준비하는 당신, 혼자 준비하기 어렵진 않으신가요?</div> */}
                         <div>플랜데스는 죽음이라는 키워드에 가볍고 유쾌하게 다가가, 유서를 미리 작성해보고 각자의 성향을 알 수 있는 유령 유형 테스트를 진행합니다. AI로 행복했던 순간을 이미지로 재현해 추억을 되새기며, 삶의 긍정적인 면을 조명하고 희망을 되찾을 수 있도록 기획하였습니다. </div>
@@ -88,4 +89,4 @@ function Plan() {
     )
 }
 
-export default Plan
+export default Byeol

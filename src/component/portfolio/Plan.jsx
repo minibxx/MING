@@ -66,11 +66,13 @@ function Plan() {
                         <div>플랜데스는 죽음이라는 키워드에 가볍고 유쾌하게 다가가, 유서를 미리 작성해보고 각자의 성향을 알 수 있는 유령 유형 테스트를 진행합니다. AI로 행복했던 순간을 이미지로 재현해 추억을 되새기며, 삶의 긍정적인 면을 조명하고 희망을 되찾을 수 있도록 기획하였습니다. </div>
                         <div className='mb-[10px]'></div>
                         <div className='font-bold mt-[15px] mb-[5px]'>트러블 슈팅</div>
-                        <div>Ⅰ. 미디어 파일 통신 (분석을 위해 mp3와 mp4 파일을 서버에 전송)</div>
-                        <div className='ml-[12px]'>→ 녹음, 녹화 파일을 Blob 객체로 나누어 chunk 배열에 저장한 후 File 객체로 변환하여 서버에 전송하도록 세팅</div>
-                        <div className='ml-[12px]'>→ 함수형 컴포넌트에서 사용하도록 구현해둔 훅을 이용해 formData 객체에 저장한 파일을 추가하고 서버에 전송</div>
-                        <div className='mt-[10px]'>Ⅱ. 시선, 음성 분석 결과 그래프 이미지 전달</div>
-                        <div className='ml-[12px]'>→ 프로젝트 루트 디렉토리에 저장되는 URL을 전달 받아서 화면에 렌더링하는 방식으로 구현</div>
+                        <div>Ⅰ. AI 이미지 생성을 위한 채팅 페이지 구현</div>
+                        <div className='ml-[12px]'>→ 사용자가 새로 입력하거나 이전에 채팅한 데이터가 누적된 리스트를 관리하는 담당</div>
+                        <div className='ml-[12px]'>→ [...org]를 이용해 기존 배열을 수정하지 않고 추가로 배열(메시지)를 추가하는 방식으로 구현</div>
+                        <div className='ml-[12px]'>→ 'setTimeOut' 함수를 사용해 채팅이 보여지는 시간에 딜레이를 주어 자연스러운 채팅 효과 구현</div>
+                        <div className='mt-[10px]'>Ⅱ. 달리를 사용해 생성한 추억 이미지를 프론트 화면에 전달</div>
+                        <div className='ml-[12px]'>→ 프롬프트에 입력할 추억 키워드를 'userInput' 파라미터로 서버에 전달</div>
+                        <div className='ml-[12px]'>→ 서버로부터 url 형태로 전달받은 이미지를 사용자에게 전달</div>
 
                         <div className='font-bold mt-[15px] mb-[5px]'>러닝 포인트</div>
                         <div>▪️ Vercel을 이용한 프론트 화면 배포 경험</div>

@@ -26,9 +26,9 @@ function AboutListW() {
           </ul>
         </div>
 
-          <div className='pl-[40px] relative w-[38vw] py-[50px]'>
+        <div className='pl-[40px] relative w-[38vw] py-[30px]'>
           {/* <div className='w-[150px] m-[auto] mt-[50px] absolute top-[15%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]'> <img src={c1} /></div> */}
-          <div className='font-bold text-[90px] mb-[10px] m-[auto] mt-[10px] mb-[20px] h-[120px] items-center  text-[gray]'></div>
+          <div className='font-bold text-[90px] mb-[10px] m-[auto]] mb-[20px] h-[120px] items-center  text-[gray]'></div>
           <ul className=''>
             <div className='font-bold mt-[15px]'>활동</div>
             <li className='flex'><div className='mr-[15px] w-[95px]'>22.03~24.07</div><div>더블유쇼핑 정보방송 알짜배기 여행백서 촬영 보조 인턴</div></li>
@@ -45,7 +45,7 @@ function AboutListW() {
         </div>
 
         <div className=' pl-[40px] relative w-[33vw] py-[30px] '>
-        {/* <div className='w-[150px] m-[auto] mt-[50px] absolute top-[15%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]'> <img src={c3} /></div> */}
+          {/* <div className='w-[150px] m-[auto] mt-[50px] absolute top-[15%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]'> <img src={c3} /></div> */}
           <div className='font-bold text-[90px] mb-[10px] m-[auto] mb-[20px] h-[120px] items-center text-[gray]'>SKILLS</div>
           <ul className=''>
             <div className='font-bold '>‣ Html / Css & Javascript</div>

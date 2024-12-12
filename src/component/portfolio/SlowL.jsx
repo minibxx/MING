@@ -56,10 +56,9 @@ function SlowL() {
         </div>
         <Flex>
             <div className='w-[55%]'>
-            <div className='text-[#3F8424] font-bold text-[25px] mb-[20px]'>성장의 자취를 기록하다, 플라우디</div>
+            <div className='text-[#3F8424] font-bold text-[25px] mb-[20px]'>경계성 지능인을 위한 느린 교육 플랫폼, SlowL</div>
 
-            <div className='mt-[15px]'>혼자 플래너를 적으면서 동기부여가 안될 때, 공개된 플랫폼에 작성하기에는 부담이 될 때, </div>
-                    <div>회고 전용 플랫폼인 FlouD에서 회고를 적고 익명의 친구와 공유하며 건강한 자극을 주고 받을 수 있습니다. </div>
+            <div className='mt-[15px]'>슬로우엘에서는 인공지능과의 채팅을 통해 행동 방향성을 제시하고, 퀴즈게임을 통해 생활상식을 교육합니다. 사용자가 답변한 자료를 통계화하여 장애 행동 개선 및 연구자료로 활용하고 사고를 예방합니다. </div>
                 <div className='mb-[10px]'></div>
                 <div className='font-bold mt-[15px] mb-[5px]'>트러블 슈팅</div>
                 <div>Ⅰ. 페이지 계층 구조에 따른 전역 상태 관리</div>

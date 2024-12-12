@@ -10,7 +10,7 @@ const Flex = styled.div`
 `;
 
 const Img = styled.div`
-  width: 37%;
+  width: 35%;
   margin: 30px 0px;
 `;
 
@@ -58,7 +58,7 @@ function Ddokddok() {
                     <Img >
                         <img src={ssock} />
                     </Img>
-                    <div className='w-[55%]'>
+                    <div className='w-[60%]'>
 
                         <div className='text-[#1B2580] font-bold text-[25px] mb-[20px]'>똑부러지는 취업, 똑바른 자세부터! 똑똑</div>
 

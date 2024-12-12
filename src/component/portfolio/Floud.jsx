@@ -64,7 +64,7 @@ function Floud() {
                         <div className='mb-[10px]'></div>
                         <div className='font-bold mt-[15px] mb-[5px]'>트러블 슈팅</div>
                         <div>Ⅰ. 페이지 계층 구조에 따른 전역 상태 관리</div>
-                        <div className='ml-[12px]'>사용자가 작성한 KPT 회고 내용을 여러 페이지에서 공유하는 기획에 따라 페이지의 깊이가 깊어짐</div>
+                        {/* <div className='ml-[12px]'>사용자가 작성한 KPT 회고 내용을 여러 페이지에서 공유하는 기획에 따라 페이지의 깊이가 깊어짐</div> */}
                         <div className='ml-[12px]'>→  상태 관리 라이브러리 Recoil을 사용하여 상태 의존성을 관리하며 성능을 최적화</div>
                         <div className='mt-[10px]'>Ⅱ. 페이지 이동 시 매끄러운 화면 트랜지션</div>
                         <div className='ml-[12px]'>setInterval을 일일이 만들기에는 복잡함 → Request Animation Frame을 이용해 수행하고자 하는 <br /> 애니메이션을 브라우저에게 전달하고, 리페인트 전에 해당 애니메이션을 업데이트하는 함수를 호출</div>

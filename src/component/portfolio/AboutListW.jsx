@@ -3,7 +3,7 @@ import React from 'react'
 function AboutListW() {
   return (
     <>
-      <div className='w-[80%] m-[auto] flex justify-between my-[50px]'>
+      <div className='w-[85%] m-[auto] flex justify-between my-[50px]'>
         <div className='relative w-[28vw] py-[30px]'>
           {/* <div className='w-[150px] m-[auto] mt-[50px] absolute top-[15%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]'> <img src={c2} /></div> */}
           <div className='font-bold text-[90px] mb-[10px] m-[auto] mb-[20px] h-[120px] items-center text-[gray]'>PROFILE</div>

@@ -112,7 +112,7 @@ function Front() {
   }, [hoveredProject])
 
   return (
-    <div className='w-[80%] m-[auto] relative'>
+    <div className='w-[85%] m-[auto] relative'>
       <div className='front row'>
         <div className='pofols'>
           <a className='pofol font1' onMouseEnter={() => onMouseEnterOnProject(1)} href=''>
@@ -130,7 +130,7 @@ function Front() {
         <div className='pofol-div'>
           <b className={renderPofolStyle()}>{renderPofolTitle()}</b>
           {/* <img className='pofol-title' src={renderPofolTitle()} /> */}
-          <img className='renderPofolStyle ml-[50px]' src={renderPofolFace()} />
+          <img className='renderPofolStyle ml-[50px] fadeIn' src={renderPofolFace()} />
         </div>
         <div className='pofols right'>
 
@@ -146,7 +146,7 @@ function Front() {
           </a>
         </div>
       </div>
-      <div>{renderPofolCard()}</div>
+      <div className='fadeIn'>{renderPofolCard()}</div>
     </div>
   )
 }

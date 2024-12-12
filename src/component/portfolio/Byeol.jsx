@@ -11,7 +11,7 @@ const Flex = styled.div`
 `;
 
 const Img = styled.div`
-  width: 37%;
+  width: 35%;
   margin: 30px 0px;
 `;
 
@@ -59,20 +59,19 @@ function Byeol() {
                     <Img >
                         <img src={ssock} />
                     </Img>
-                    <div className='w-[55%]'>
+                    <div className='w-[60%]'>
 
                         <div className='text-[#F45852] font-bold text-[25px] mb-[20px]'>사주 기반 소개팅 매칭 서비스, 별별연인</div>
 
                         {/* <div>혼자 취업을 준비하는 취준생, 새로운 직종으로 이직을 준비하는 당신, 혼자 준비하기 어렵진 않으신가요?</div> */}
-                        <div>플랜데스는 죽음이라는 키워드에 가볍고 유쾌하게 다가가, 유서를 미리 작성해보고 각자의 성향을 알 수 있는 유령 유형 테스트를 진행합니다. AI로 행복했던 순간을 이미지로 재현해 추억을 되새기며, 삶의 긍정적인 면을 조명하고 희망을 되찾을 수 있도록 기획하였습니다. </div>
+                        <div>별별연인에서는 생년월일, 태어난 시를 입력하여 정보를 등록하면 사주가 맞는 회원리스트를 보여줍니다. 서로를 찜해 매칭된 커플에게만 연락처가 공개됩니다. 외모나 스펙 상관없이 운명의 상대를 만나보세요~ </div>
                         <div className='mb-[10px]'></div>
                         <div className='font-bold mt-[15px] mb-[5px]'>트러블 슈팅</div>
-                        <div>Ⅰ. 미디어 파일 통신 (분석을 위해 mp3와 mp4 파일을 서버에 전송)</div>
-                        <div className='ml-[12px]'>→ 녹음, 녹화 파일을 Blob 객체로 나누어 chunk 배열에 저장한 후 File 객체로 변환하여 서버에 전송하도록 세팅</div>
-                        <div className='ml-[12px]'>→ 함수형 컴포넌트에서 사용하도록 구현해둔 훅을 이용해 formData 객체에 저장한 파일을 추가하고 서버에 전송</div>
-                        <div className='mt-[10px]'>Ⅱ. 시선, 음성 분석 결과 그래프 이미지 전달</div>
-                        <div className='ml-[12px]'>→ 프로젝트 루트 디렉토리에 저장되는 URL을 전달 받아서 화면에 렌더링하는 방식으로 구현</div>
-
+                        <div>Ⅰ. Bard Api 사용시 요청이 늘어나면 Bard 측에서 Api 호출을 막는 이슈 발생</div>
+                        <div className='ml-[12px]'>→ 챗지피티 Api로 대체하여 해결</div>
+                        <div className='mt-[10px]'>Ⅱ. 클라이언트 사이드에서 요청시 수행이 되지 않는 이슈 발생</div>
+                        <div className='ml-[12px]'>→ API 폴더를 따로 생성 및 관리하여 서버 사이드로 요청 수행</div>
+                        <div className='ml-[12px]'>→ 500 서버 에러 발생하여 My sql 분리, 명칭 변경</div>
                         <div className='font-bold mt-[15px] mb-[5px]'>러닝 포인트</div>
                         <div>▪️ Vercel을 이용한 프론트 화면 배포 경험</div>
                         <div>▪️ 프로젝트 공통 작업(스타일, HOOK 등) 세팅, 전반적인 코드 관리</div>

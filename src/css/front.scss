@@ -21,6 +21,7 @@
 .pofol.font1:hover {
     color: #1B2580;
     text-decoration: none;
+    
 }
 .pofol.font2:hover {
     color: #EA4C4C;
@@ -57,6 +58,15 @@
     text-align: center;
     /* 텍스트 중앙 정렬 */
     z-index: -1;
+    animation: rhkdusehla 1s ;
+    @keyframes rhkdusehla {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 100;
+        }
+      }
 }
 
 .pofol-title2 {
@@ -72,4 +82,25 @@
     text-align: center;
     /* 텍스트 중앙 정렬 */
     z-index: -1;
+    animation: rhkdusehla 1s ;
+    @keyframes rhkdusehla {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 100;
+        }
+      }
+}
+
+.fadeIn{
+    animation: rhkdusehla 1s ;
+    @keyframes rhkdusehla {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 100;
+        }
+      }
 }

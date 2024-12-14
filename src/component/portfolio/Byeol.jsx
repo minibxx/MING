@@ -38,7 +38,7 @@ function Byeol() {
                     </div>
                     <div>
                         <div className='text-[gray]'>기여도</div>
-                        <div className='mb-[10px]'>Plan 25 | Design 100 | FrontEnd 25</div>
+                        <div className='mb-[10px]'>Plan 25 | Design 100 | FrontEnd 100</div>
                     </div>
                     <div>
                         <div className='text-[gray]'>Used</div>
@@ -49,9 +49,9 @@ function Byeol() {
                             <div className='w-[45px] flex'>
                                 <img src={github} />
                             </div>
-                            <div className='w-[50px]'>
+                            {/* <div className='w-[50px]'>
                                 <img src={ssockB} />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -73,10 +73,8 @@ function Byeol() {
                         <div className='ml-[12px]'>→ API 폴더를 따로 생성 및 관리하여 서버 사이드로 요청 수행</div>
                         <div className='ml-[12px]'>→ 500 서버 에러 발생하여 My sql 분리, 명칭 변경</div>
                         <div className='font-bold mt-[15px] mb-[5px]'>러닝 포인트</div>
-                        <div>▪️ Vercel을 이용한 프론트 화면 배포 경험</div>
-                        <div>▪️ 프로젝트 공통 작업(스타일, HOOK 등) 세팅, 전반적인 코드 관리</div>
-                        <div>▪️ 문제점을 백엔드가 이해하지 못하고 무시하더라도 끝까지 어필하고 프론트에서 해결할 대책 마련할 것 </div>
-                        <div>▪️ 타 파트의 작업 과정에서 의문과 의심이 생기면 적극적으로 문제 제기하고 이슈 여부 확인할 것</div>
+                        <div>▪️ Mysql을 연동한 백엔드 구현</div>
+                        <div>▪️ 이미지 최적화를 위한 Next/Image 컴포넌트 사용 (캐시 처리)</div>
                     </div>
 
                 </Flex>

@@ -33,11 +33,11 @@ function Ssock() {
 				</div>
 				<div>
 					<div className='text-[gray]'>Period</div>
-					<div className='mb-[10px]'>2023. 07~ .08</div>
+					<div className='mb-[10px]'>2023. 04~ .06</div>
 				</div>
 				<div>
 					<div className='text-[gray]'>기여도</div>
-					<div className='mb-[10px]'>Plan 70 | Design 100 | FrontEnd 50</div>
+					<div className='mb-[10px]'>Plan 70 | Design 100 | FrontEnd 100</div>
 				</div>
 				<div>
 					<div className='text-[gray]'>Used</div>

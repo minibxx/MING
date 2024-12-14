@@ -107,17 +107,17 @@ function Front() {
 
   const renderPofolCard = () => {
     if (hoveredProject === 1) {
-      return <Ddokddok/>;
+      return <Ddokddok />;
     } else if (hoveredProject === 2) {
-      return <Ssock/>;
+      return <Ssock />;
     } else if (hoveredProject === 3) {
-      return <Plan/>;
+      return <Plan />;
     } else if (hoveredProject === 4) {
-      return <Floud/>;
+      return <Floud />;
     } else if (hoveredProject === 5) {
-      return <SlowL/>;
+      return <SlowL />;
     } else {
-      return <Byeol/>;
+      return <Byeol />;
     }
 
   }
@@ -127,43 +127,49 @@ function Front() {
   }, [hoveredProject])
 
   return (
-    <div className='w-[85%] m-[auto] relative'>
-      <div className='front row'>
-        <div className='pofols'>
-          <a className='pofol font1' onMouseEnter={() => onMouseEnterOnProject(1)} href=''>
-            <span className='font-black text-[30px]'> DDokDDok</span><br /> 똑부러지는 취업, <br/>똑바른 자세부터! 똑똑
-          </a>
-          <a className='pofol font2' onMouseEnter={() => onMouseEnterOnProject(2)} href=''>
-          <span className='font-black text-[30px]'> SSock</span> <br />음성인식 모바일 키오스크 <br />내 폰 안에, 쏙!
-          
-            
-          </a>
-          <a className='pofol font3' onMouseEnter={() => onMouseEnterOnProject(3)} href=''>
-          <span className='font-black text-[30px]'> PlanDeath</span> <br/>당신이 내일 죽는다면? <br />죽음을 기획하라, 플랜데스
-          </a>
-        </div>
-        <div className='pofol-div'>
-          <b className={renderPofolStyle()}>{renderPofolTitle()}</b>
-          {/* <img className='pofol-title' src={renderPofolTitle()} /> */}
-          <img className={`ml-[50px] fadeIn`} src={renderPofolFace()} />
-          {/* {renderPofolFace2()} */}
-        </div>
-        <div className='pofols right'>
+    <>
 
-          <a className='pofol font4' onMouseEnter={() => onMouseEnterOnProject(4)} href=''>
-          <span className='font-black text-[30px]'> FlouD</span> <br />하루 10분 회고하며 <br />매일 1% 성장하다
-         
-          </a>
-          <a className='pofol font5' onMouseEnter={() => onMouseEnterOnProject(5)} href=''>
-          <span className='font-black text-[30px]'> SlowL</span> <br />경계성 지능 장애인을 위한 <br /> 느린 교육 플랫폼, 슬로울
-          </a>
-          <a className='pofol font6' onMouseEnter={() => onMouseEnterOnProject(6)} href=''>
-          <span className='font-black text-[30px]'> 별별연인</span> <br />사주 기반 <br /> 연인 매칭 서비스
-          </a>
-        </div>
+      <div className='w-[85%] m-[auto] font-bold text-[90px] mb-[10px] mb-[20px] h-[120px] items-center text-[gray]'>
+        PROJECTS<span className='text-[15px] text-[black] ml-[30px]'>아래 프로젝트 위에 마우스를 올려보세요</span>
       </div>
-      <div className='fadeIn'>{renderPofolCard()}</div>
-    </div>
+      <div className='w-[85%] m-[auto] relative'>
+        <div className='front row'>
+          <div className='pofols'>
+            <a className='pofol font1' onMouseEnter={() => onMouseEnterOnProject(1)} href=''>
+              <span className='font-black text-[30px]'> DDokDDok</span><br /> 똑부러지는 취업, <br />똑바른 자세부터! 똑똑
+            </a>
+            <a className='pofol font2' onMouseEnter={() => onMouseEnterOnProject(2)} href=''>
+              <span className='font-black text-[30px]'> SSock</span> <br />음성인식 모바일 키오스크 <br />내 폰 안에, 쏙!
+
+
+            </a>
+            <a className='pofol font3' onMouseEnter={() => onMouseEnterOnProject(3)} href=''>
+              <span className='font-black text-[30px]'> PlanDeath</span> <br />당신이 내일 죽는다면? <br />죽음을 기획하라, 플랜데스
+            </a>
+          </div>
+          <div className='pofol-div'>
+            <b className={renderPofolStyle()}>{renderPofolTitle()}</b>
+            {/* <img className='pofol-title' src={renderPofolTitle()} /> */}
+            <img className={`ml-[50px] fadeIn`} src={renderPofolFace()} />
+            {/* {renderPofolFace2()} */}
+          </div>
+          <div className='pofols right'>
+
+            <a className='pofol font4' onMouseEnter={() => onMouseEnterOnProject(4)} href=''>
+              <span className='font-black text-[30px]'> FlouD</span> <br />하루 10분 회고하며 <br />매일 1% 성장하다
+
+            </a>
+            <a className='pofol font5' onMouseEnter={() => onMouseEnterOnProject(5)} href=''>
+              <span className='font-black text-[30px]'> SlowL</span> <br />경계성 지능 장애인을 위한 <br /> 느린 교육 플랫폼, 슬로울
+            </a>
+            <a className='pofol font6' onMouseEnter={() => onMouseEnterOnProject(6)} href=''>
+              <span className='font-black text-[30px]'> 별별연인</span> <br />사주 기반 <br /> 연인 매칭 서비스
+            </a>
+          </div>
+        </div>
+        <div className='fadeIn'>{renderPofolCard()}</div>
+      </div>
+    </>
   )
 }
 

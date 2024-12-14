@@ -32,8 +32,8 @@ function AboutListW() {
           <ul className=''>
             <div className='font-bold mt-[15px]'>활동</div>
             <li className='flex'><div className='mr-[15px] w-[95px]'>22.03~24.07</div><div>더블유쇼핑 정보방송 알짜배기 여행백서 촬영 보조 인턴</div></li>
+            <li className='flex'><div className='mr-[15px] w-[95px]'>24.01~24.02</div><div>구름 인공지능 교육 콘텐츠 제작 외주 개발 </div></li>
             <li className='flex'><div className='mr-[15px] w-[95px]'>22.03~23.02</div><div>덕성여자대학교 커리어서포터즈 19/20기 디자인 팀장</div></li>
-
             <li className='flex'><div className='mr-[15px] w-[95px]'>21.06~23.02</div><div>덕성여자대학교 IT미디어공학전공 제 17/18대 학회장</div></li>
             <li className='flex'><div className='mr-[15px] w-[95px]'>20.03~20.11</div><div>덕성여자대학교 과학기술대학 학생회 자명 홍보국장</div></li>
             <div className='font-bold mt-[15px]'>교육</div>
@@ -48,12 +48,14 @@ function AboutListW() {
           {/* <div className='w-[150px] m-[auto] mt-[50px] absolute top-[15%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[1]'> <img src={c3} /></div> */}
           <div className='font-bold text-[90px] mb-[10px] m-[auto] mb-[20px] h-[120px] items-center text-[gray]'>SKILLS</div>
           <ul className=''>
-            <div className='font-bold '>‣ Html / Css & Javascript</div>
+            <div className='font-bold '>‣ Html / Css </div>
             <ul></ul>
-            <div className='font-bold mt-[15px]'>‣ React</div>
-            <div className='font-bold mt-[15px]'>‣ Next & Typescript</div>
+            <div className='font-bold mt-[15px]'>‣ React & Next</div>
+            <div className='font-bold mt-[15px]'>‣ Javascript & Typescript</div>
             <div className='font-bold mt-[15px]'>‣ ETC</div>
-            <li className=''>  Flutter / Vue / Photoshop / Illustrator / Blender / Maya / Github / Notion</li>
+            <li className='ml-[12px]'>  Flutter / Vue / three.js</li>
+            <li className='ml-[12px]'>  Photoshop / Illustrator / Blender / Maya </li>
+            <li className='ml-[12px]'>  Github / Notion</li>
           </ul>
 
         </div>

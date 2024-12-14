@@ -58,7 +58,7 @@ function SlowL() {
             <div className='w-[55%]'>
             <div className='text-[#3F8424] font-bold text-[25px] mb-[20px]'>경계성 지능인을 위한 느린 교육 플랫폼, SlowL</div>
 
-            <div className='mt-[15px]'>슬로우엘에서는 인공지능과의 채팅을 통해 행동 방향성을 제시하고, 퀴즈게임을 통해 생활상식을 교육합니다. 사용자가 답변한 자료를 통계화하여 장애 행동 개선 및 연구자료로 활용하고 사고를 예방합니다. </div>
+            <div className='mt-[15px]'>슬로울에서는 인공지능과의 채팅을 통해 행동 방향성을 제시하고, 퀴즈게임을 통해 생활상식을 교육합니다. 사용자가 답변한 자료를 통계화하여 장애 행동 개선 및 연구자료로 활용하고 사고를 예방합니다. </div>
                 <div className='mb-[10px]'></div>
                 <div className='font-bold mt-[15px] mb-[5px]'>트러블 슈팅</div>
                 <div>Ⅰ. 페이지 계층 구조에 따른 전역 상태 관리</div>

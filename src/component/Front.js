@@ -44,11 +44,11 @@ function Front() {
     if (hoveredProject === 1) {
       return '똑ㅤㅤ똑';
     } else if (hoveredProject === 2) {
-      return 'FLOUD';
+      return 'SSOCK';
     } else if (hoveredProject === 3) {
       return '플랜데스';
     } else if (hoveredProject === 4) {
-      return 'SSOCK';
+      return 'FLOUD';
     } else if (hoveredProject === 5) {
       return 'ㅤSLOWL';
     } else {
@@ -70,8 +70,23 @@ function Front() {
     } else {
       return face6;
     }
-
   }
+
+  // const renderPofolFace2 = () => {
+  //   if (hoveredProject === 1) {
+  //     return <img className='renderPofolStyle ml-[50px] fadeIn' src={face2} />;
+  //   } else if (hoveredProject === 2) {
+  //     return <img className='renderPofolStyle ml-[50px] fadeIn' src={face1} />;
+  //   } else if (hoveredProject === 3) {
+  //     return <img className='renderPofolStyle ml-[50px] fadeIn' src={face3} />;
+  //   } else if (hoveredProject === 4) {
+  //     return <img className='renderPofolStyle ml-[50px] fadeIn' src={face5} />;
+  //   } else if (hoveredProject === 5) {
+  //     return <img className='renderPofolStyle ml-[50px] fadeIn' src={face4} />;
+  //   } else {
+  //     return <img className='renderPofolStyle ml-[50px] fadeIn' src={face6} />;
+  //   }
+  // }
 
   const renderPofolStyle = () => {
     if (hoveredProject === 1) {
@@ -130,7 +145,8 @@ function Front() {
         <div className='pofol-div'>
           <b className={renderPofolStyle()}>{renderPofolTitle()}</b>
           {/* <img className='pofol-title' src={renderPofolTitle()} /> */}
-          <img className='renderPofolStyle ml-[50px] fadeIn' src={renderPofolFace()} />
+          <img className={`ml-[50px] fadeIn`} src={renderPofolFace()} />
+          {/* {renderPofolFace2()} */}
         </div>
         <div className='pofols right'>
 

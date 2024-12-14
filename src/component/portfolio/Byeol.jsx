@@ -34,15 +34,15 @@ function Byeol() {
                     </div>
                     <div>
                         <div className='text-[gray]'>Period</div>
-                        <div className='mb-[10px]'>2023. 07~ .08</div>
+                        <div className='mb-[10px]'>2023. 10~ .11</div>
                     </div>
                     <div>
                         <div className='text-[gray]'>기여도</div>
-                        <div className='mb-[10px]'>Plan 70 | Design 100 | FrontEnd 50</div>
+                        <div className='mb-[10px]'>Plan 25 | Design 100 | FrontEnd 25</div>
                     </div>
                     <div>
                         <div className='text-[gray]'>Used</div>
-                        <div className='mb-[10px]'>HTML, CSS</div>
+                        <div className='mb-[10px]'>Next, Mysql, mariaDB, PWA</div>
                     </div>
                     <div>
                         <div className='flex gap-[10px]'>
@@ -64,7 +64,7 @@ function Byeol() {
                         <div className='text-[#F45852] font-bold text-[25px] mb-[20px]'>사주 기반 소개팅 매칭 서비스, 별별연인</div>
 
                         {/* <div>혼자 취업을 준비하는 취준생, 새로운 직종으로 이직을 준비하는 당신, 혼자 준비하기 어렵진 않으신가요?</div> */}
-                        <div>별별연인에서는 생년월일, 태어난 시를 입력하여 정보를 등록하면 사주가 맞는 회원리스트를 보여줍니다. 서로를 찜해 매칭된 커플에게만 연락처가 공개됩니다. 외모나 스펙 상관없이 운명의 상대를 만나보세요~ </div>
+                        <div>별별연인에서는 생년월일, 태어난 시를 입력하여 정보를 등록하면 사주가 맞는 회원리스트가 나타납니다. 서로를 찜해 매칭된 커플에게만 연락처가 공개됩니다. 외모나 스펙 상관없이 운명의 상대를 만나보세요~ </div>
                         <div className='mb-[10px]'></div>
                         <div className='font-bold mt-[15px] mb-[5px]'>트러블 슈팅</div>
                         <div>Ⅰ. Bard Api 사용시 요청이 늘어나면 Bard 측에서 Api 호출을 막는 이슈 발생</div>

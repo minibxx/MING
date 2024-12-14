@@ -59,6 +59,7 @@
     /* 텍스트 중앙 정렬 */
     z-index: -1;
     animation: rhkdusehla 1s ;
+    transition: 2s;
     @keyframes rhkdusehla {
         0% {
           opacity: 0;
@@ -83,6 +84,7 @@
     /* 텍스트 중앙 정렬 */
     z-index: -1;
     animation: rhkdusehla 1s ;
+    transition: 2s;
     @keyframes rhkdusehla {
         0% {
           opacity: 0;
@@ -94,6 +96,7 @@
 }
 
 .fadeIn{
+    transition: 2s;
     animation: rhkdusehla 1s ;
     @keyframes rhkdusehla {
         0% {

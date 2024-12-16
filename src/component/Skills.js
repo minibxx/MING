@@ -79,7 +79,7 @@ function Skills() {
         <li>활용한 SEO 최적화 및 성능 향상</li>
         <li>API Routes를 사용하여 백엔드 구현</li>
         <li>Styled-components와 Tailwind CSS를 활용한 효율적인 스타일링</li>
-        <li>Zustand와 Recoil을 사용한 전역 상태 관리 구현</li>
+        <li className='mb-[20px]'>Zustand와 Recoil을 사용한 전역 상태 관리 구현</li>
         </div>
         </div>
 

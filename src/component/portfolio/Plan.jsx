@@ -74,7 +74,7 @@ function Plan() {
                         <div className='ml-[12px]'>→ 프롬프트에 입력할 추억 키워드를 'userInput' 파라미터로 서버에 전달 후 url 형태로 이미지 get</div>
 
                         <div className='font-bold mt-[15px] mb-[5px]'>러닝 포인트</div>
-                        <div>▪️ </div>
+                        <div>▪️ vite를 이용한 모바일 뷰포트 설정</div>
                     </div>
 
                 </Flex>

@@ -76,8 +76,7 @@ function Ddokddok() {
                         <div className='font-bold mt-[15px] mb-[5px]'>러닝 포인트</div>
                         <div>▪️ Vercel을 이용한 프론트 화면 배포 경험</div>
                         <div>▪️ 프로젝트 공통 작업(스타일, HOOK 등) 세팅, 전반적인 코드 관리</div>
-                        <div>▪️ React base64를 이용한 인코딩, 디코딩 작업</div>
-                        {/* <div>▪️ </div> */}
+                        <div>▪️ React base64를 이용한 mp4, mp3 파일 인코딩 작업</div>
                     </div>
 
                 </Flex>

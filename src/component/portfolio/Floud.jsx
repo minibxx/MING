@@ -70,8 +70,8 @@ function Floud() {
                         <div className='ml-[12px]'>setInterval을 일일이 만들기에는 복잡함 → Request Animation Frame을 이용해 수행하고자 하는 <br /> 애니메이션을 브라우저에게 전달하고, 리페인트 전에 해당 애니메이션을 업데이트하는 함수를 호출</div>
 
                         <div className='font-bold mt-[15px] mb-[5px]'>러닝 포인트</div>
-                        <div>▪️ API 폴더를 생성하고, 함수로 API를 호출 하는 코드를 분리하여 보다 체계적으로 관리하고 사용</div>
-                        <div>▪️ 객체지향 언어가 아닌 JavaScript 사용 시에 캡슐화나 모듈화에 소홀해지지 않고 폴더를 정리하여 관리 </div>
+                        <div>▪️ API 폴더를 생성하고, 함수로 API를 호출 하는 코드를 분리하여 보다 체계적인 관리 및 사용</div>
+                        <div>▪️ 객체지향 언어가 아닌 JavaScript 사용 시 캡슐화나 모듈화에 소홀해지지 않고 폴더를 정리하여 관리 </div>
                         <div>▪️ 개발 과정에서 기능을 어떤 기준으로 나누고, 관리할 수 있을지 고민하는 습관</div>
 
                     </div>

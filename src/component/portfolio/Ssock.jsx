@@ -69,7 +69,7 @@ function Ssock() {
 					<div className='ml-[12px]'>→ 뷰-템플릿의 역할 분리하여 템플릿 태그를 최소화하고 코드 재사용성 확보하며 작업하는 방식 도입</div>
 					
 					<div className='font-bold mt-[15px] mb-[5px]'>러닝 포인트</div>
-					<div>▪️ 프로젝트의 전 과정에 참여하며 기획, 디자인, 백엔드 파트에 대한 이해도를 높임</div>
+					<div>▪️ 프로젝트의 전 과정에 참여하며 기획, 디자인, 백엔드 파트에 대한 이해</div>
 					<div>▪️ Web Speech API를 활용한 메인 기능 (STT, TTS) 구현 기술</div>
 					<div>▪️ 정해진 일정 내에서 팀원들과의 갈등 없이 상황을 모니터링하며 팀을 이끄는 경험</div>
 

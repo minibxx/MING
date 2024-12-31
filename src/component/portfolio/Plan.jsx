@@ -45,12 +45,12 @@ function Plan() {
                     </div>
                     <div>
                         <div className='flex gap-[10px]'>
-                            <div className='w-[45px] flex'>
+                            <a className='w-[45px] flex' href='https://github.com/minibxx/PLANDEATH'>
                                 <img src={github} />
-                            </div>
-                            <div className='w-[50px]'>
+                            </a>
+                            {/* <div className='w-[50px]'>
                                 <img src={ssockB} />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

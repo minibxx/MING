@@ -43,9 +43,9 @@ function Floud() {
                     </div>
                     <div>
                         <div className='flex gap-[10px]'>
-                            <div className='w-[45px] flex'>
+                            <a className='w-[45px] flex' href='https://github.com/FlouD-2024/flouD-Front'>
                                 <img src={github} />
-                            </div>
+                            </a>
                             <div className='w-[50px]'>
                                 <img src={floudB} />
                             </div>

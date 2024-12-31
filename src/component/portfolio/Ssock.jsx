@@ -45,9 +45,9 @@ function Ssock() {
 				</div>
 				<div>
 					<div className='flex gap-[10px]'>
-						<div className='w-[45px] flex'>
+						<a className='w-[45px] flex' href='https://github.com/gardening-y/Helpkiosk'>
 							<img src={github} />
-						</div>
+						</a>
 						<div className='w-[50px]'>
 							<img src={ssockB} />
 						</div>

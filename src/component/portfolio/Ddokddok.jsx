@@ -45,12 +45,12 @@ function Ddokddok() {
                     </div>
                     <div>
                         <div className='flex gap-[10px]'>
-                            <div className='w-[45px] flex'>
+                            <a className='w-[45px] flex' href='https://github.com/minibxx/BBoglePops_DDock'>
                                 <img src={github} />
-                            </div>
-                            <div className='w-[50px]'>
+                            </a>
+                            <a className='w-[50px]' href='https://ddokdddok.vercel.app/'>
                                 <img src={ssockB} />
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
